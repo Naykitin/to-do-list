@@ -1,0 +1,13 @@
+h1 {
+   color: silver;
+}
+
+.container {
+   display: block;
+   margin: auto;
+   width: 230px;
+}
+
+form {
+   display: flex;
+}
