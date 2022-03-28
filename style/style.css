@@ -1,6 +1,4 @@
-h1 {
-   color: silver;
-}
+
 
 .container {
    display: block;
@@ -10,4 +8,10 @@ h1 {
 
 form {
    display: flex;
+}
+ul > li {
+   margin: 5px 0;
+}
+ul > li > button {
+   margin-left: 5px;
 }
