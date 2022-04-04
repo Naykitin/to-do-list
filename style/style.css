@@ -18,9 +18,10 @@ body {
    flex-direction: column;
    align-items: center;
    justify-content: space-around;
-   min-width: 450px;
+   width: 450px;
    min-height: 200px;
    padding: 10px;
+   margin: 0 10px;
    background: #ffffff29;
    border-radius: 20px;
 }
