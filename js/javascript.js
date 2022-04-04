@@ -13,7 +13,9 @@ function todoList(event) {
    element.innerText = inputValue;
 
    const deleteBtn = document.createElement('button');
-   deleteBtn.innerText = 'Delete';
+   deleteBtn.setAttribute('class', 'deleteBtn');
+   const span = document.createElement('span');
+   deleteBtn.appendChild(span);
    element.append(deleteBtn);
    deleteBtn.addEventListener('click', function() {
       this.closest('li').remove();
